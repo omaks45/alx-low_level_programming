@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -9,7 +8,6 @@
  */
 int main(void)
 {
-
 	int;
 
 	srand(time(0));
@@ -27,6 +25,6 @@ int main(void)
 	{	
 	printf("%d is zero\n", n);
 	}
-	return (0);
+	`return (0);
 }
 
