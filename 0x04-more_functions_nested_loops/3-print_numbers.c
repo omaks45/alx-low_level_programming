@@ -8,5 +8,5 @@ void print_numbers(void)
 
 	for (b = 0; b < 10; b++)
 		_putchar(b + '0');
-	putchar('\n');
+	_putchar('\n');
 }
