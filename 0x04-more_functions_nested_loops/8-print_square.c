@@ -9,9 +9,7 @@ void print_square(int size)
 
 	if (size <= 0)
 		_putchar('\n');
-	else
-	{
-		for (t = 0; t < size; t++)
+	for (t = 0; t < size; t++)
 		{
 			for (h = 0; h < size; h++)
 			{
@@ -19,6 +17,4 @@ void print_square(int size)
 			}
 			_putchar('\n');
 		}
-		_putchar('\n');
-	}
 }
