@@ -1,20 +1,20 @@
 #include "main.h"
 /**
-* print_square - print a square
+* print_square - print square 
 * @size: integer value
 */
 void print_square(int size)
 {
-	int t, h;
+	int x, y;
 
 	if (size <= 0)
 		_putchar('\n');
-	for (t = 0; t < size; t++)
+	for (x = 0; x < size; x++)
+	{
+		for (y = 0; y < size; y++)
 		{
-			for (h = 0; h < size; h++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
+			_putchar('#');
 		}
+		_putchar('\n');
+	}
 }
