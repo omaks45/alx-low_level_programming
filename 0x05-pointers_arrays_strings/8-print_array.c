@@ -13,11 +13,8 @@ void print_array(int *a, int n)
 	{
 		if (i == 0)
 			printf("%d", ptr[i]);
+		else if (i < 0)
+			printf(", ");
 	}
-	else if (i > 0)
-	{
-		printf(", ");
-		printf("%d", ptr[i]);
-	}
-	printf("%c", '\n');
+	printf("%c", '\n')
 }
