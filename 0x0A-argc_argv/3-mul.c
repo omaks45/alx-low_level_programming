@@ -1,3 +1,5 @@
+#include "main.h"
+#include <string.h>
 #include <stdio.h>
 /**
  * main - multiplies two numbers
