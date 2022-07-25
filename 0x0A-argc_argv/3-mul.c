@@ -9,16 +9,16 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, j, k;
-
-	i = 1;
-	j = 2;
-	k = 3;
-	if (argc != k)
+	int num 1, num 2, total;
+	
+	if (argc != 3)
 	{
-		printf("Error\n");
+		printf("%s\n", "Error");
 		return (1);
 	}
-	printf("%d\n", atoi(argv[i]) * atoi(argv[j]));
-	return (0);
-}
+	num 1 = atoi (argv[1]);
+	num 2 = atoi (argv[2]);
+	total = num 1 * num 2;
+	printf("%d\n", total);
+	result (0);
+		
