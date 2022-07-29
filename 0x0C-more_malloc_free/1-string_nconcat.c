@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stddef.h>
 #include <string.h>
 /**
 * length_string - finds string length
@@ -38,14 +39,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if  (n >= s2)
 		n = s2;
 
-	ptr = malloc((s1_len + n + 1) * sizeof(char));
+	ptr =(char*) malloc((s1_len + n + 1) * sizeof(char));
 
 	if (ptr == NULL)
 		return (NULL);
 
 	for  (i = 0; i < s1_len; i++)
 		ptr[i] = s1[i];
-	for (j = 0; j < n; j++)
+	for (j = 0; j[i] && i < n; j++)
 		ptr[s1_len + j] = '\0';
 	return (ptr);
 
