@@ -1,5 +1,5 @@
-#ifndef DOG
-#define DOG
+#ifndef HEADERFILE_H
+#define HEADERFILE_H
 /**
 * struct dog - struct definition type
 * @name: 1st struct element
