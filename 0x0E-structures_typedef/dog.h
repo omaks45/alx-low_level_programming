@@ -4,11 +4,11 @@
 * struct dog - struct definition type
 * @name: name of dog
 * @age: dog's age
-* @owner: 3rd struct element
+* @owner: dog's owner
 */
 struct dog
 {
-	char nam;
+	char name;
 	float age;
 	char owner;
 };
