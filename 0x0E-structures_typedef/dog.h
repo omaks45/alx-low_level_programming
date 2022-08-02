@@ -1,5 +1,5 @@
-#ifndef HEADERFILE_H
-#define HEADERFILE_H
+#ifndef DOG_H
+#define DOG_H
 /**
 * struct dog - struct definition type
 * @name: name of dog
