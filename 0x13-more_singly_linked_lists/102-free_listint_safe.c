@@ -57,17 +57,17 @@ size_t free_listint_safe(listint_t **h)
 			{
 				*h = NULL;
 				free_listp2(&ptr);
-				return (new_node);
+				return (new_nodes);
 			}
 		}
 
 		prev = *h;
 		*h = (*h)->next;
 		free(prev);
-		new_node++;
+		new_nodes++;
 	}
 
 	*h = NULL;
 	free_listp2(&ptr);
-	return (new_node);
+	return (new_nodes);
 }
