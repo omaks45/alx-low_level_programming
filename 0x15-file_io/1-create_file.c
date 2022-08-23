@@ -5,9 +5,9 @@
 *
 * Return: length of string
 */
-size_t _strlen(char *str)
+int _strlen(char *str)
 {
-	size_t i;
+	int i;
 
 	for  (i = 0; str[i]; i++)
 		;
@@ -27,7 +27,7 @@ int create_file(const char *filename, char *text_content)
 
 	if (filename == NULL)
 		return (-1);
-	fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUR | S_IWUSR);
+	fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
 	if (fd == -1 || lent == -1)
 		return (-1);
 	if (text_content != NULL)
