@@ -6,7 +6,7 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <unistd.h>
-#include <fcntrl.h>
+#include <fcntl.h>
 
 
 int _putchar(char c);
