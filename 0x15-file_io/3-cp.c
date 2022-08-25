@@ -34,7 +34,7 @@ void access_io_fptr(int fptr, int fd, char *filename, char permission)
 int main(int argc, char *argv[])
 {
 	int fd1, fd2, close_fd1, close_fd2;
-	int message = 1024, fptr1;
+	ssize_t message = 1024, fptr1;
 	char buffer[1024];
 	unsigned int permission = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
 
